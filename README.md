@@ -3,6 +3,10 @@ Minecraft mod for saving player position. You can find coordinates of all your s
 
 EN-US
 
+Requirements:
+Fabric Loader >= 0.14.21
+Fabric API = any
+
 Try a new command - /pos.
 Syntax:  /pos [get\set] [cell(integer) 1..32] [tip(string, for "set")]
 
@@ -22,6 +26,10 @@ Message in chat:
 You can save coordinates of your favourite locations in the game and lavel the coordinates so as not to forget.
 
 RU-RU
+
+Требования:
+Fabric Loader >= 0.14.21
+Fabric API = любой
 
 Попробуйте новую команду - /pos.
 Синтаксис:  /pos [get\set] [cell(число) 1..32] [tip(строка, для "set")]

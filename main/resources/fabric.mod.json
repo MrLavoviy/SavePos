@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "savepos",
-	"version": "1.0.0.0",
+	"version": "1.1.0.0",
 	"name": "SavePos",
 	"description": "This mod helps you to save some coordinates!",
 	"authors": [

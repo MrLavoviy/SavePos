@@ -38,7 +38,7 @@ public class PosCommand {
             return -1;
         } if (source.getPlayer() != null) {
             SPData dat = PosData.getPos((IPlayerDataSaver)source.getPlayer(), number);
-            if (dat.pos.x != 0.0d && dat.pos.y != 0.0d && dat.pos.z != 0.0d && dat.tip != "") {
+            if (dat.saved) {
                 source.sendMessage(Text.translatable("poscommand.cell").append(Text.literal(" " + number + ": " + Double.toString(dat.pos.x) + " " + Double.toString(dat.pos.y)
                         + " " + Double.toString(dat.pos.z))));
                 source.sendMessage(Text.translatable("poscommand.tip").append(Text.literal(": " + dat.tip)));

@@ -11,12 +11,13 @@ public class PosData {
         nbt.putDouble(("ay" + Integer.toString(number - 1)), dat.pos.y);
         nbt.putDouble(("az" + Integer.toString(number - 1)), dat.pos.z);
         nbt.putString(("as" + Integer.toString(number - 1)), dat.tip);
+        nbt.putBoolean(("ab" + Integer.toString(number - 1)), true);
         return 1;
     }
     public static SPData getPos(IPlayerDataSaver player, int number) {
         NbtCompound nbt = player.getPosData();
         Vec3d pos = new Vec3d(nbt.getDouble("ax" + Integer.toString(number - 1)), nbt.getDouble("ay" + Integer.toString(number - 1)), nbt.getDouble("az" + Integer.toString(number - 1)));
-        SPData dat = new SPData(pos, nbt.getString("as" + Integer.toString(number - 1)));
+        SPData dat = new SPData(pos, nbt.getString("as" + Integer.toString(number - 1)), nbt.getBoolean("ab" + Integer.toString(number - 1)));
         return dat;
     }
 }

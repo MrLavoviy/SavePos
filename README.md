@@ -3,6 +3,9 @@ Minecraft mod for saving player position. You can find coordinates of all your s
 
 EN-US
 
+NEW in 1.1:
+Fixed a bug where any zero-coordinate or zero-tip interfered with the output of not-zero-coordinates with /pos get.
+
 Requirements:
 Fabric Loader >= 0.14.21
 Fabric API = any
@@ -26,6 +29,9 @@ Message in chat:
 You can save coordinates of your favourite locations in the game and lavel the coordinates so as not to forget.
 
 RU-RU
+
+НОВОЕ в 1.1:
+Исправлена ошибка, при которой любая нулевая координата или нулевая пометка мешала выводу ненулевых координат при /pos get.
 
 Требования:
 Fabric Loader >= 0.14.21

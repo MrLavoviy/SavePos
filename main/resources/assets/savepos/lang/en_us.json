@@ -1,0 +1,6 @@
+{
+  "poscommand.cell": "Cell",
+  "poscommand.tip": "Tip",
+  "poscommand.unknownplayer": "The command must be executed on behalf of the player",
+  "poscommand.nocell": "There are no coordinates in this cell"
+}

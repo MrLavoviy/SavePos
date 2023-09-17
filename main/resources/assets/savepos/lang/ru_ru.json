@@ -1,0 +1,6 @@
+{
+  "poscommand.cell": "Ячейка",
+  "poscommand.tip": "Пометка",
+  "poscommand.unknownplayer": "Команда должна выполняться от имени игрока",
+  "poscommand.nocell": "В эту ячейку не записаны координаты"
+}
